@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <!-- warning'leri error'e çeviriyoruz bu sayede error leri çözmeden devam edemediğimiz için warning leri çözmeden devam edemiyoruz -->
+	  <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TS.EntityFrameworkCore.GenericRepository" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>
